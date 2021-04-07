@@ -12,7 +12,9 @@ rfid_Y = True;
 
 while rfid_Y:
         try:
-
+            
+            print('Vennligst scan studentkort:')
+            
             id, text = reader.read()
             print(id)
             print(type(id))
