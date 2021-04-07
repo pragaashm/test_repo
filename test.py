@@ -5,8 +5,6 @@ from time import sleep
 
 GPIO.setwarnings(False)    # Ignore warning for now
 GPIO.setmode(GPIO.BOARD)
-GPIO.setup(led,GPIO.OUT)
-GPIO.output(led, GPIO.LOW)
 
 
 reader = SimpleMFRC522()
@@ -26,5 +24,6 @@ while True:
                 print('Ta en pullup')
 
             else:
+                print('Hvem er du?')
         except:
                 GPIO.cleanup()
