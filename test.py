@@ -15,15 +15,19 @@ while True:
             id, text = reader.read()
             print(id)
             print(type(id))
-            print(text)
-            sleep(2)
+            "print(text)"
+            sleep(1)
 
-            if id==473652318634:
+            if id==473653218634:
+                sleep(1)
                 print('Hei Pragaash Mohan')
                 print('Du er kul')
                 print('Ta en pullup')
+                sleep(1)
 
             else:
                 print('Hvem er du?')
+                sleep(1)
+                print('Prøv igjen')
         except:
                 GPIO.cleanup()
