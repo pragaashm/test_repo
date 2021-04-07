@@ -40,4 +40,3 @@ while True:
                 print('Prøv igjen')
         except:
                 GPIO.cleanup()
-trel
