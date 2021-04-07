@@ -4,14 +4,15 @@ from time import sleep
 
 
 GPIO.setwarnings(False)    
-GPIO.setmode(GPIO.BOARD)
 
 
 reader = SimpleMFRC522()
 
 while True:
         try:
-
+            
+            print('Vennligst scan studentkort:')
+            
             id, text = reader.read()
             print(id)
             print(type(id))
