@@ -21,7 +21,9 @@ while True:
             if id==473653218634:
                 sleep(1)
                 print('Hei Pragaash Mohan')
+                sleep(1)
                 print('Du er kul')
+                sleep(1)
                 print('Ta en pullup')
                 sleep(1)
 
@@ -31,3 +33,4 @@ while True:
                 print('Prøv igjen')
         except:
                 GPIO.cleanup()
+trel
