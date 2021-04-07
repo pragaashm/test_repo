@@ -4,12 +4,13 @@ from time import sleep
 
 
 GPIO.setwarnings(False)    
-GPIO.setmode(GPIO.BOARD)
 
 
 reader = SimpleMFRC522()
 
-while True:
+rfid_Y = True;
+
+while rfid_Y:
         try:
 
             id, text = reader.read()
