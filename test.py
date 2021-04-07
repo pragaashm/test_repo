@@ -7,7 +7,10 @@ GPIO.setwarnings(False)    # Ignore warning for now
 GPIO.setmode(GPIO.BOARD)
 GPIO.setup(led,GPIO.OUT)
 GPIO.output(led, GPIO.LOW)
+
+
 reader = SimpleMFRC522()
+
 while True:
         try:
 
