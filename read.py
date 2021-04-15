@@ -17,10 +17,11 @@ while rfid_Y:
             id, text = reader.read()
             print(id)
             print(type(id))
+            sleep(1)
+
 
 
             keyboard.send(str(id))
-            sleep(1)
 
             print(keyboard.send(str(id)))
             print(type(keyboard.send(str(id))))
