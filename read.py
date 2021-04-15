@@ -23,9 +23,6 @@ while rfid_Y:
 
             keyboard.send(str(id))
 
-            print(keyboard.send(str(id)))
-            print(type(keyboard.send(str(id))))
-            sleep(1)
 
         except:
                 GPIO.cleanup()
